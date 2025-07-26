@@ -2,7 +2,7 @@ const videos = [
   {
     title: 'MrBeast Style Reel',
     src: 'https://drive.google.com/file/d/1seSFZ1z-fu7yqfy6_ZJjruvU0i9v8TEw/preview',
-    description: 'Recreated Mr Beast Podcast video with Minimal Clean edit.'
+    description: 'Recreated Mr Beast Podcast video with Minimal Clean edit'
   },
   {
     title: 'Manifest Reel',
