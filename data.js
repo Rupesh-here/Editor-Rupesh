@@ -9,6 +9,12 @@ const videos = [
     src: 'https://drive.google.com/file/d/1_PqhNnFtEGjAsRuLhLFjx4xoSWJkSADo/preview',
     description: 'Personal Branding client asked for clean MotionGraphics and Smooth Visual Storytelling.'
   }
+  {
+  title: 'Faceless Educational Promotion Video',
+  src: 'https://drive.google.com/file/d/179mYIRXq2jAoVDy2eFW-CYw557Eqmj8p/preview',
+  description: 'Educational content that speaks for itself.'
+}
+
 ];
 
 const videoGrid = document.getElementById('videoGrid');
