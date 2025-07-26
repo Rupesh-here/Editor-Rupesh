@@ -1,4 +1,4 @@
-  /* Reset and base styles */
+/* Reset and base styles */
 * {
   margin: 0;
   padding: 0;
@@ -14,9 +14,10 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
-/* Landing */
+/* Landing Section */
 .landing {
   text-align: center;
   padding: 60px 20px;
@@ -36,7 +37,7 @@ a {
   margin: 0 auto;
 }
 
-/* Videos */
+/* Video Section */
 .video-section {
   padding: 40px 20px;
   text-align: center;
@@ -61,6 +62,7 @@ a {
   width: 320px;
   transition: transform 0.4s ease;
   position: relative;
+  box-shadow: 0 0 15px rgba(0, 255, 174, 0.2);
 }
 
 .video-item:hover {
@@ -85,7 +87,6 @@ a {
   background: radial-gradient(circle at top left, #333, #111);
   font-size: 0.95rem;
   color: #bbb;
-  transition: opacity 0.4s ease;
   text-align: left;
 }
 
@@ -103,7 +104,7 @@ footer h2 {
 .social-icons a {
   margin: 0 15px;
   display: inline-block;
-  transition: transform 0.4s ease;
+  animation: float 3s ease-in-out infinite;
 }
 
 .social-icons img {
@@ -124,9 +125,20 @@ footer h2 {
   to { opacity: 1; transform: translateY(0); }
 }
 
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
+
+/* Responsive */
 @media screen and (max-width: 768px) {
   .video-grid {
     flex-direction: column;
     align-items: center;
+  }
+
+  .video-item {
+    width: 90%;
   }
 }
