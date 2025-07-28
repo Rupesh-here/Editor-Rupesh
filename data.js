@@ -2,17 +2,17 @@ const videos = [
   {
     title: 'MrBeast Style Reel',
     src: 'https://drive.google.com/file/d/1seSFZ1z-fu7yqfy6_ZJjruvU0i9v8TEw/preview',
-    description: 'Recreated Mr Beast Podcast video with Minimal Clean edit'
+    description: 'Recreated Mr Beast Podcast video with Minimal Clean edit.'
   },
   {
     title: 'Manifest Reel',
     src: 'https://drive.google.com/file/d/1_PqhNnFtEGjAsRuLhLFjx4xoSWJkSADo/preview',
-    description: 'Personal Branding client asked for clean MotionGraphics and Smooth Visual Storytelling.'
+    description: 'Clean MotionGraphics & Storytelling for a personal brand.'
   },
   {
-    title: 'Faceless Educational Promotion Video',
+    title: 'Faceless Educational Promo',
     src: 'https://drive.google.com/file/d/179mYIRXq2jAoVDy2eFW-CYw557Eqmj8p/preview',
-    description: 'Educational content that speaks for itself.'
+    description: 'Faceless educational content built with clear messaging.'
   }
 ];
 
